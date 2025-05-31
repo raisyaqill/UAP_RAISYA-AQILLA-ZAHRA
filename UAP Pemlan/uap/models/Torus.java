@@ -56,7 +56,7 @@ implements MassCalcuable, MassConverter, PiRequired, ShippingCostCalculator, Thr
         System.out.println("Massa\t\t: " + getMass());
         System.out.println("Massa dalam kg\t: " + gramToKilogram());
 
-        System.out.println("Biaya kirim\t: " + calculateCost());
+        System.out.println("Biaya kirim\t: Rp " + calculateCost());
     
 }
 }
